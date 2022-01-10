@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Teio/AndroidStudioProjects/OpenMico/app/src/main/res/layout/devicelist_layout.xml" value="0.4033613316075515" />
+        <entry key="..\:/Users/Teio/AndroidStudioProjects/OpenMico/app/src/main/res/layout/subactivity_layout.xml" value="0.4033613316075515" />
+        <entry key="..\:/Users/Teio/Downloads/OpenMico2/OpenMico/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Teio/Downloads/OpenMico2/OpenMico/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Teio/Downloads/OpenMico2/OpenMico/app/src/main/res/layout/devicelist_layout.xml" value="0.128125" />
+        <entry key="..\:/Users/Teio/Downloads/OpenMico2/OpenMico/app/src/main/res/layout/item_device.xml" value="0.26621847886098404" />
+        <entry key="..\:/Users/Teio/Downloads/OpenMico2/OpenMico/app/src/main/res/layout/pushota_layout.xml" value="0.4033613316075515" />
+        <entry key="..\:/Users/Teio/Downloads/OpenMico2/OpenMico/app/src/main/res/layout/subactivity_layout.xml" value="0.5416666666666666" />
+        <entry key="..\:/Users/Teio/Downloads/OpenMico2/OpenMico/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Teio/Downloads/OpenMico2/OpenMico/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.19583333333333333" />
+        <entry key="app/src/main/res/layout/devicelist_layout.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/item_device.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/subactivity_layout.xml" value="0.19895833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

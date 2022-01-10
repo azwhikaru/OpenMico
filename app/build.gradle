@@ -1,0 +1,57 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\Teio\\Downloads\\release.keystore')
+            storePassword 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
+            keyAlias 'release'
+            keyPassword 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
+        }
+    }
+    compileSdk 32
+
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "io.openmico"
+        minSdk 21
+        targetSdk 32
+        versionCode 20220111
+        versionName '20220111-1.2'
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        minSdkVersion 23
+        targetSdkVersion 32
+    }
+
+    buildTypes {
+        release {
+            // minifyEnabled true
+            // zipAlignEnabled true
+            // shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    // implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.google.code.gson:gson:2.8.8'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50'
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+
+
+}

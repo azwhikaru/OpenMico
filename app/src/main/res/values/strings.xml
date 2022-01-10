@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">OpenMico</string>
+    <string name="login_notice_textview">使用小米账号和密码登录</string>
+    <string name="login_notice_username">账号</string>
+    <string name="login_notice_password">密码</string>
+    <string name="login_notice_login">登录</string>
+    <string name="devices_notice">选择需要操作的设备</string>
+    <string name="pushota_notice">已选择: %s</string>
+    <string name="pushota_notice_api">升级包链接</string>
+    <string name="pushota_notice_hardware">设备型号</string>
+    <string name="pushota_notice_version">升级包版本</string>
+    <string name="pushota_notice_hash">升级包 Hash</string>
+    <string name="pushota_notice_extra">升级包数据</string>
+    <string name="pushota_notice_start">推送</string>
+    <string name="author_notice">2022 Project OpenMico\nBy @bqmz001 @azwhikaru</string>
+    <string name="ota_x08a_example_extra">{"FILE_HASH":"94EuyNSN7hkpZcJ/NgDz3KBOouKHu3jRMxOmDAe9O2c=","FILE_SIZE":"776983315","METADATA_HASH":"AZpHsluj7o2pbpwPVZF4l3JzTu3AMxohw0ayppMDem8=","METADATA_SIZE":"72430"}</string>
+    <string name="ota_x08a_example_version">2.0.9</string>
+    <string name="ota_x08a_example_link">https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08a/payload_2.0.9_14ece.bin</string>
+    <string name="ota_x08a_example_hash">148cbd252ee69608f20bb03835f14ece</string>
+</resources>

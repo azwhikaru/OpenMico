@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pushota_text_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/pushota_notice"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="@string/pushota_notice_api"
+    />
+
+    <EditText
+        android:id="@+id/pushota_input_link"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+    />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="@string/pushota_notice_version"
+    />
+
+    <EditText
+        android:id="@+id/pushota_input_version"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="@string/pushota_notice_hash"
+    />
+
+    <EditText
+        android:id="@+id/pushota_input_hash"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="@string/pushota_notice_extra"
+        />
+
+    <EditText
+        android:id="@+id/pushota_input_extra"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+    />
+
+    <Button
+        android:id="@+id/pushota_button_push"
+        android:layout_marginTop="20sp"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/pushota_notice_start"
+    />
+
+
+</LinearLayout>
